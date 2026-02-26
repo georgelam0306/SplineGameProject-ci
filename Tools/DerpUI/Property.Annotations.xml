@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Property.Annotations</name>
+    </assembly>
+    <members>
+        <member name="T:Property.ArrayAttribute">
+            <summary>
+            Marks a field as a fixed-size array for property code generation.
+            The field type must be an inline array struct (C# [InlineArray]) so element access is allocation-free.
+            </summary>
+        </member>
+        <member name="T:Property.Array2DAttribute">
+            <summary>
+            Marks a field as a fixed-size 2D array (row-major) for property code generation.
+            The field type must be an inline array struct (C# [InlineArray]) of TotalLength elements.
+            </summary>
+        </member>
+    </members>
+</doc>

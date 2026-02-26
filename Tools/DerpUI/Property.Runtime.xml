@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Property.Runtime</name>
+    </assembly>
+    <members>
+        <member name="T:Property.PropertyValueOps">
+            <summary>
+            Zero-allocation arithmetic operations on <see cref="T:Property.PropertyValue"/>,
+            dispatched by <see cref="T:Property.PropertyKind"/>.
+            </summary>
+        </member>
+        <member name="M:Property.PropertyValueOps.MulScalar(Property.PropertyKind,Property.PropertyValue@,System.Single)">
+            <summary>Scalar-broadcast multiply: Vec * Float → Vec.</summary>
+        </member>
+        <member name="M:Property.PropertyValueOps.MulFixed64Scalar(Property.PropertyKind,Property.PropertyValue@,FixedMath.Fixed64)">
+            <summary>Scalar-broadcast multiply: Fixed64Vec * Fixed64 → Fixed64Vec.</summary>
+        </member>
+        <member name="M:Property.PropertyValueOps.DivScalar(Property.PropertyKind,Property.PropertyValue@,System.Single)">
+            <summary>Scalar-broadcast divide: Vec / Float → Vec.</summary>
+        </member>
+        <member name="M:Property.PropertyValueOps.DivFixed64Scalar(Property.PropertyKind,Property.PropertyValue@,FixedMath.Fixed64)">
+            <summary>Scalar-broadcast divide: Fixed64Vec / Fixed64 → Fixed64Vec.</summary>
+        </member>
+        <member name="M:Property.PropertyValueOps.PromoteToFloat(Property.PropertyValue@)">
+            <summary>Promote Int → Float.</summary>
+        </member>
+        <member name="M:Property.PropertyValueOps.PromoteToFixed64(Property.PropertyValue@)">
+            <summary>Promote Int → Fixed64.</summary>
+        </member>
+    </members>
+</doc>
