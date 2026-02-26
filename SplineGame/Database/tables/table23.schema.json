@@ -1,0 +1,84 @@
+{
+  "id": "f5d8b8b6-9a64-4f1e-94fa-2fd2f4f1f184",
+  "name": "Projectiles",
+  "columns": [
+    {
+      "id": "id",
+      "name": "Id",
+      "kind": "Id",
+      "typeId": "core.id",
+      "width": 180,
+      "inherited": true
+    },
+    {
+      "id": "name",
+      "name": "Name",
+      "kind": "Text",
+      "typeId": "core.text",
+      "width": 220,
+      "inherited": true
+    },
+    {
+      "id": "prefab",
+      "name": "Prefab",
+      "kind": "Text",
+      "typeId": "core.prefab",
+      "width": 220,
+      "inherited": true
+    },
+    {
+      "id": "ui_asset",
+      "name": "UiAsset",
+      "kind": "UiAsset",
+      "typeId": "core.ui_asset",
+      "width": 210,
+      "hidden": true,
+      "inherited": true
+    },
+    {
+      "id": "scale",
+      "name": "Scale",
+      "kind": "Number",
+      "typeId": "core.number",
+      "width": 90,
+      "inherited": true
+    },
+    {
+      "id": "radius",
+      "name": "Radius",
+      "kind": "Number",
+      "typeId": "core.number",
+      "width": 90
+    },
+    {
+      "id": "speed",
+      "name": "Speed",
+      "kind": "Number",
+      "typeId": "core.number",
+      "width": 90
+    },
+    {
+      "id": "lifetime_frames",
+      "name": "LifetimeFrames",
+      "kind": "Number",
+      "typeId": "core.number",
+      "width": 140,
+      "exportType": "int"
+    },
+    {
+      "id": "damage",
+      "name": "Damage",
+      "kind": "Number",
+      "typeId": "core.number",
+      "width": 90,
+      "exportType": "int"
+    }
+  ],
+  "export": {
+    "enabled": true
+  },
+  "keys": {
+    "primaryKeyColumnId": "id"
+  },
+  "inheritanceSourceTableId": "a9df14bf-4d7b-4656-89b5-cdaf2d336ee0"
+}

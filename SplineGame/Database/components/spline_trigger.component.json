@@ -1,0 +1,23 @@
+{
+  "id": "3e49e99d-588d-44a6-8a86-9dd3b55d41fe",
+  "name": "SplineTrigger",
+  "typeName": "SplineTrigger",
+  "properties": [
+    {
+      "id": "7e5c2d33dbcd4b7bac2c2ce03f068bb7",
+      "lockedId": true,
+      "name": "Radius",
+      "kind": "Number",
+      "typeId": "core.number",
+      "defaultValue": "16"
+    },
+    {
+      "id": "7f6bfc4f70214df5b66fb19a8f3c1a90",
+      "lockedId": true,
+      "name": "TargetLevelPk",
+      "kind": "Number",
+      "typeId": "core.number",
+      "defaultValue": "0"
+    }
+  ]
+}

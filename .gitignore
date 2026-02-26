@@ -1,0 +1,27 @@
+# .NET build output
+**/bin/
+**/obj/
+**/out/
+
+# IDE/editor files
+.vs/
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Repo-specific generated/runtime artifacts
+DerpDoc/
+SplineGame/derpgame
+SplineGame/Database/.derpdoc-live.bin
+SplineGame/Database/.derpdoc-external-change

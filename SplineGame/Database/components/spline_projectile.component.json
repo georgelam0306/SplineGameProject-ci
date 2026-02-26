@@ -1,0 +1,79 @@
+{
+  "id": "4f8e39b8-afcb-4f6c-a28f-137f5acbef71",
+  "name": "SplineProjectile",
+  "typeName": "SplineProjectile",
+  "properties": [
+    {
+      "id": "8b80f4b6e6df4f8eaf8fc85ad8fc8d08",
+      "lockedId": true,
+      "name": "Radius",
+      "kind": "Number",
+      "typeId": "core.number",
+      "defaultValue": "18"
+    },
+    {
+      "id": "0907b95070554cecadf6e08f5e93c924",
+      "lockedId": true,
+      "name": "Speed",
+      "kind": "Number",
+      "typeId": "core.number",
+      "defaultValue": "0.5"
+    },
+    {
+      "id": "168253a7fbf84eb980b4d9e9cefa6a08",
+      "lockedId": true,
+      "name": "LifetimeFrames",
+      "kind": "Number",
+      "typeId": "core.number",
+      "defaultValue": "60"
+    },
+    {
+      "id": "ece05cf0e9d94353b34208650f978f44",
+      "lockedId": true,
+      "name": "Damage",
+      "kind": "Number",
+      "typeId": "core.number",
+      "defaultValue": "1"
+    },
+    {
+      "id": "8fda4a04cb6146f4bb2ff8a9dd22963a",
+      "lockedId": true,
+      "name": "VelocityX",
+      "kind": "Number",
+      "typeId": "core.number",
+      "defaultValue": "0"
+    },
+    {
+      "id": "1e2c99895eb846f29587ec7504f24dd6",
+      "lockedId": true,
+      "name": "VelocityY",
+      "kind": "Number",
+      "typeId": "core.number",
+      "defaultValue": "-1"
+    },
+    {
+      "id": "50f7f93f8f6f44e2bf32ba4bf3035f6f",
+      "lockedId": true,
+      "name": "PositionX",
+      "kind": "Number",
+      "typeId": "core.number",
+      "defaultValue": "0"
+    },
+    {
+      "id": "e9d9f8bf8a6243d4a6da3e3b7d3ee0d2",
+      "lockedId": true,
+      "name": "PositionY",
+      "kind": "Number",
+      "typeId": "core.number",
+      "defaultValue": "0"
+    },
+    {
+      "id": "8e6e82b8b3a34f3b9d56a1487f2309b8",
+      "lockedId": true,
+      "name": "IsEnemyProjectile",
+      "kind": "Checkbox",
+      "typeId": "core.checkbox",
+      "defaultValue": "false"
+    }
+  ]
+}

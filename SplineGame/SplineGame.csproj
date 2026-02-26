@@ -1,0 +1,60 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <AssemblyName>DerpTech.SplineGame</AssemblyName>
+    <RootNamespace>SplineGame</RootNamespace>
+
+    <DerpTechPackageVersion>0.1.0-local</DerpTechPackageVersion>
+    <DerpDocCliCommand>dotnet tool run derpdoc</DerpDocCliCommand>
+    <DerpDocDatabaseRoot>$(MSBuildProjectDirectory)/Database</DerpDocDatabaseRoot>
+    <DerpDocGeneratedDir>$(MSBuildProjectDirectory)/obj/DerpDocGenerated</DerpDocGeneratedDir>
+    <DerpDocBinaryPath>$(MSBuildProjectDirectory)/Resources/Database/SplineGame.derpdoc</DerpDocBinaryPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Derp.UI" Version="$(DerpTechPackageVersion)" />
+    <PackageReference Include="DerpDoc.Runtime" Version="$(DerpTechPackageVersion)" />
+    <PackageReference Include="DerpTech.FixedMath" Version="$(DerpTechPackageVersion)" />
+    <PackageReference Include="Derp.Ecs.Runtime" Version="$(DerpTechPackageVersion)" />
+    <PackageReference Include="Derp.Ecs.Editor.Runtime" Version="$(DerpTechPackageVersion)" />
+    <PackageReference Include="Derp.DI.Annotations" Version="$(DerpTechPackageVersion)" />
+    <PackageReference Include="Derp.Ecs.Generator" Version="$(DerpTechPackageVersion)" GeneratePathProperty="true" PrivateAssets="all" />
+    <PackageReference Include="Derp.DI.Generator" Version="$(DerpTechPackageVersion)" GeneratePathProperty="true" PrivateAssets="all" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Analyzer Include="$(PkgDerp_Ecs_Generator)/lib/netstandard2.0/Derp.Ecs.Generator.dll" Condition="Exists('$(PkgDerp_Ecs_Generator)/lib/netstandard2.0/Derp.Ecs.Generator.dll')" />
+    <Analyzer Include="$(PkgDerp_DI_Generator)/lib/netstandard2.0/Derp.DI.Generator.dll" Condition="Exists('$(PkgDerp_DI_Generator)/lib/netstandard2.0/Derp.DI.Generator.dll')" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Data/db/**/*.*" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="Resources/Database/*.derpdoc" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="Resources/Database/*.derpentitydata" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+  <Target Name="ExportDerpDocDatabase"
+          BeforeTargets="CoreCompile"
+          Inputs="$(DerpDocDatabaseRoot)/project.json;$(DerpDocDatabaseRoot)/tables/**/*.json*"
+          Outputs="$(DerpDocGeneratedDir)/GameDatabase.g.cs;$(DerpDocBinaryPath)">
+    <Exec Command="dotnet tool restore" WorkingDirectory="$(MSBuildProjectDirectory)" />
+    <RemoveDir Directories="$(DerpDocGeneratedDir)" />
+    <MakeDir Directories="$(DerpDocGeneratedDir);$(MSBuildProjectDirectory)/Resources/Database;$(TargetDir)Resources/Database" />
+    <Exec Command="$(DerpDocCliCommand) export &quot;$(DerpDocDatabaseRoot)&quot; --generated &quot;$(DerpDocGeneratedDir)&quot; --bin &quot;$(DerpDocBinaryPath)&quot; --no-manifest" />
+    <ItemGroup>
+      <Compile Include="$(DerpDocGeneratedDir)/*.g.cs" />
+    </ItemGroup>
+    <Copy SourceFiles="$(DerpDocBinaryPath)" DestinationFolder="$(TargetDir)Resources/Database" SkipUnchangedFiles="true" />
+
+    <ItemGroup>
+      <_DerpEntityData Include="$(MSBuildProjectDirectory)/Resources/Database/*.derpentitydata" Condition="Exists('$(MSBuildProjectDirectory)/Resources/Database')" />
+    </ItemGroup>
+    <Copy SourceFiles="@(_DerpEntityData)" DestinationFolder="$(TargetDir)Resources/Database" SkipUnchangedFiles="true" Condition="'@(_DerpEntityData)' != ''" />
+  </Target>
+
+</Project>

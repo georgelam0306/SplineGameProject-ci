@@ -1,0 +1,77 @@
+{
+  "id": "2ca27ca3-d399-4265-af1f-1c4e903bfff7",
+  "name": "Enemies",
+  "columns": [
+    {
+      "id": "id",
+      "name": "Id",
+      "kind": "Id",
+      "typeId": "core.id",
+      "width": 180,
+      "inherited": true
+    },
+    {
+      "id": "name",
+      "name": "Name",
+      "kind": "Text",
+      "typeId": "core.text",
+      "width": 220,
+      "inherited": true
+    },
+    {
+      "id": "prefab",
+      "name": "Prefab",
+      "kind": "Text",
+      "typeId": "core.prefab",
+      "width": 220,
+      "inherited": true
+    },
+    {
+      "id": "ui_asset",
+      "name": "UiAsset",
+      "kind": "UiAsset",
+      "typeId": "core.ui_asset",
+      "width": 210,
+      "hidden": true,
+      "inherited": true
+    },
+    {
+      "id": "scale",
+      "name": "Scale",
+      "kind": "Number",
+      "typeId": "core.number",
+      "width": 90,
+      "inherited": true
+    },
+    {
+      "id": "speed",
+      "name": "Speed",
+      "kind": "Number",
+      "typeId": "core.number",
+      "width": 90
+    },
+    {
+      "id": "health",
+      "name": "Health",
+      "kind": "Number",
+      "typeId": "core.number",
+      "width": 90,
+      "exportType": "int"
+    },
+    {
+      "id": "fire_rate",
+      "name": "FireRate",
+      "kind": "Number",
+      "typeId": "core.number",
+      "width": 110,
+      "exportType": "int"
+    }
+  ],
+  "export": {
+    "enabled": true
+  },
+  "keys": {
+    "primaryKeyColumnId": "id"
+  },
+  "inheritanceSourceTableId": "a9df14bf-4d7b-4656-89b5-cdaf2d336ee0"
+}

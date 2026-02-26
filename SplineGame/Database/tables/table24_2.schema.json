@@ -1,0 +1,13 @@
+{
+  "id": "00e5a6f9-2903-4ba1-bc01-c3b2000336e2",
+  "name": "Table 24",
+  "columns": [
+    {
+      "id": "2bcc2f1d-d3a8-4376-b5c7-9c92bcb82ed4",
+      "name": "Automation Button",
+      "kind": "Text",
+      "typeId": "editor.automation_button",
+      "width": 150
+    }
+  ]
+}

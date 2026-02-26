@@ -1,0 +1,23 @@
+{
+  "id": "80187cd5-ae81-4785-8a8b-0f3606c536e1",
+  "name": "SplineEntityVisual",
+  "typeName": "SplineEntityVisual",
+  "domain": "RenderOnly",
+  "properties": [
+    {
+      "id": "ed4942d2586d47d9bba0fcfaff834934",
+      "lockedId": true,
+      "name": "UiAsset",
+      "kind": "UiAsset",
+      "typeId": "core.ui_asset"
+    },
+    {
+      "id": "97a948481f8643b09a2b296c16013f07",
+      "lockedId": true,
+      "name": "UiScale",
+      "kind": "Number",
+      "typeId": "core.number",
+      "defaultValue": "0.1"
+    }
+  ]
+}

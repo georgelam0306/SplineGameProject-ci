@@ -1,0 +1,31 @@
+{
+  "id": "f36a2e95-e648-4f42-958a-e40f55adf46a",
+  "name": "SplineHealth",
+  "typeName": "SplineHealth",
+  "properties": [
+    {
+      "id": "30d7b2f4f0de4de7aa0e6ed7f80e352a",
+      "lockedId": true,
+      "name": "Hp",
+      "kind": "Number",
+      "typeId": "core.number",
+      "defaultValue": "1"
+    },
+    {
+      "id": "bbfcb708b7ab4d4e8f64034e2b8df8ad",
+      "lockedId": true,
+      "name": "MaxHp",
+      "kind": "Number",
+      "typeId": "core.number",
+      "defaultValue": "1"
+    },
+    {
+      "id": "f2f631df9f9f4ae5b4a0a6d91fbf24c3",
+      "lockedId": true,
+      "name": "DamageFlashFramesRemaining",
+      "kind": "Number",
+      "typeId": "core.number",
+      "defaultValue": "0"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "3e81041a-5205-426f-a1d0-f8280979c1ab",
+  "name": "Component 5",
+  "typeName": "component_5",
+  "properties": [
+    {
+      "id": "f3b4acefef3541a4a2b3235610353933",
+      "lockedId": true,
+      "name": "Value",
+      "kind": "Text",
+      "typeId": "core.text"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "856eb348-9108-405f-bd18-b4dbb60d751f",
+  "name": "TestPrefabs",
+  "columns": [
+    {
+      "id": "id",
+      "name": "Id",
+      "kind": "Id",
+      "typeId": "core.id",
+      "width": 180
+    },
+    {
+      "id": "4018650f-0905-4b62-a671-a94223494f1d",
+      "name": "Prefab",
+      "kind": "Text",
+      "typeId": "core.prefab",
+      "pluginSettings": "{\u0022displayMode\u0022:\u0022property\u0022,\u0022displayPropertyPaths\u0022:[\u0022fa2c45b0-09af-47f9-bf2e-5030d29c35bc.c0a3c81df7c94d73b6c9b32e595edc5e\u0022]}",
+      "width": 200.17188
+    }
+  ],
+  "export": {
+    "enabled": true
+  },
+  "keys": {
+    "primaryKeyColumnId": "id"
+  }
+}

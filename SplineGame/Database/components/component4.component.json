@@ -1,0 +1,14 @@
+{
+  "id": "c23ef19a-2c22-4699-82a0-b1d4e8fb804f",
+  "name": "Test3",
+  "typeName": "test3",
+  "properties": [
+    {
+      "id": "086865db033d4533952cdb13e556a43d",
+      "lockedId": true,
+      "name": "Value",
+      "kind": "UiAsset",
+      "typeId": "core.ui_asset"
+    }
+  ]
+}

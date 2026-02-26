@@ -1,0 +1,38 @@
+{
+  "id": "541006c8-166b-4380-a15b-63b0a372f85e",
+  "name": "BaseEnemy",
+  "components": [
+    {
+      "componentSchemaId": "3a2414bf-8fbf-4c70-a4a4-7f52d8e90b70",
+      "componentName": "SplineTransform"
+    },
+    {
+      "componentSchemaId": "fa2c45b0-09af-47f9-bf2e-5030d29c35bc",
+      "componentName": "SplineEnemyMove"
+    },
+    {
+      "componentSchemaId": "f36a2e95-e648-4f42-958a-e40f55adf46a",
+      "componentName": "SplineHealth",
+      "propertyBindings": {
+        "30d7b2f4f0de4de7aa0e6ed7f80e352a": {
+          "value": "3"
+        },
+        "bbfcb708b7ab4d4e8f64034e2b8df8ad": {
+          "value": "3"
+        }
+      }
+    },
+    {
+      "componentSchemaId": "80187cd5-ae81-4785-8a8b-0f3606c536e1",
+      "componentName": "SplineEntityVisual",
+      "propertyBindings": {
+        "ed4942d2586d47d9bba0fcfaff834934": {
+          "value": "2"
+        },
+        "97a948481f8643b09a2b296c16013f07": {
+          "value": "0.28"
+        }
+      }
+    }
+  ]
+}

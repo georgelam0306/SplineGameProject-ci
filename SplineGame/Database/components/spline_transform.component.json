@@ -1,0 +1,15 @@
+{
+  "id": "3a2414bf-8fbf-4c70-a4a4-7f52d8e90b70",
+  "name": "SplineTransform",
+  "typeName": "SplineTransform",
+  "properties": [
+    {
+      "id": "1f8e9b6c22ff4b888e80c31210c0d3b0",
+      "lockedId": true,
+      "name": "ParamT",
+      "kind": "Number",
+      "typeId": "core.number",
+      "defaultValue": "0"
+    }
+  ]
+}

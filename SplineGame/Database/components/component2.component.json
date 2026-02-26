@@ -1,0 +1,14 @@
+{
+  "id": "44bbe00f-a89b-4edc-98d5-412fbb029aac",
+  "name": "Component 2",
+  "typeName": "component_2",
+  "properties": [
+    {
+      "id": "06096aa6b56d4473a8165411c97f2e4c",
+      "lockedId": true,
+      "name": "Value",
+      "kind": "Color",
+      "typeId": "core.color.ldr"
+    }
+  ]
+}

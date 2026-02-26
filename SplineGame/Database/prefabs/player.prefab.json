@@ -1,0 +1,49 @@
+{
+  "id": "f9f8c52b-a0d3-459f-8843-5ec265743e3c",
+  "name": "Player",
+  "components": [
+    {
+      "componentSchemaId": "3a2414bf-8fbf-4c70-a4a4-7f52d8e90b70",
+      "componentName": "SplineTransform"
+    },
+    {
+      "componentSchemaId": "80187cd5-ae81-4785-8a8b-0f3606c536e1",
+      "componentName": "SplineEntityVisual",
+      "propertyBindings": {
+        "ed4942d2586d47d9bba0fcfaff834934": {
+          "value": "1"
+        },
+        "97a948481f8643b09a2b296c16013f07": {
+          "value": "0.2"
+        }
+      }
+    },
+    {
+      "componentSchemaId": "f36a2e95-e648-4f42-958a-e40f55adf46a",
+      "componentName": "SplineHealth",
+      "propertyBindings": {
+        "30d7b2f4f0de4de7aa0e6ed7f80e352a": {
+          "value": "20"
+        },
+        "bbfcb708b7ab4d4e8f64034e2b8df8ad": {
+          "value": "20"
+        }
+      }
+    },
+    {
+      "componentSchemaId": "be990440-a965-4af0-a2a0-512f8bcae2a8",
+      "componentName": "SplineWeaponInventory",
+      "propertyBindings": {
+        "0af8e4da191d4f34a469d8aa8fe2b7c6": {
+          "value": "[0,1]"
+        },
+        "e838f847d1674da2a0b96e16593d7b0f": {
+          "value": "0"
+        },
+        "7f1b4738fd5942c9af1d0d6f9a75600d": {
+          "value": "0"
+        }
+      }
+    }
+  ]
+}

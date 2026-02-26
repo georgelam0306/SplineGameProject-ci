@@ -1,0 +1,71 @@
+{
+  "id": "916628d7-a781-4548-9494-6492ba347453",
+  "name": "Player",
+  "columns": [
+    {
+      "id": "id",
+      "name": "Id",
+      "kind": "Id",
+      "typeId": "core.id",
+      "width": 180,
+      "inherited": true
+    },
+    {
+      "id": "name",
+      "name": "Name",
+      "kind": "Text",
+      "typeId": "core.text",
+      "width": 220,
+      "inherited": true
+    },
+    {
+      "id": "prefab",
+      "name": "Prefab",
+      "kind": "Text",
+      "typeId": "core.prefab",
+      "width": 220,
+      "inherited": true
+    },
+    {
+      "id": "ui_asset",
+      "name": "UiAsset",
+      "kind": "UiAsset",
+      "typeId": "core.ui_asset",
+      "width": 210,
+      "hidden": true,
+      "inherited": true
+    },
+    {
+      "id": "scale",
+      "name": "Scale",
+      "kind": "Number",
+      "typeId": "core.number",
+      "width": 90,
+      "inherited": true
+    },
+    {
+      "id": "57c02abe-ad91-4124-9915-fa4f7fcb052e",
+      "name": "MaxHealth",
+      "kind": "Number",
+      "typeId": "core.number",
+      "width": 90,
+      "exportType": "int"
+    },
+    {
+      "id": "starting_weapon",
+      "name": "StartingWeapon",
+      "kind": "Relation",
+      "typeId": "core.relation",
+      "width": 220,
+      "relationTableId": "6d46c2e8-010f-4b94-9b57-635089f62f13",
+      "relationDisplayColumnId": "name"
+    }
+  ],
+  "export": {
+    "enabled": true
+  },
+  "keys": {
+    "primaryKeyColumnId": "id"
+  },
+  "inheritanceSourceTableId": "a9df14bf-4d7b-4656-89b5-cdaf2d336ee0"
+}

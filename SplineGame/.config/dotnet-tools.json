@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "isRoot": true,
+  "tools": {
+    "derpdoc.cli": {
+      "version": "0.1.0-local",
+      "commands": [
+        "derpdoc"
+      ],
+      "rollForward": false
+    }
+  }
+}

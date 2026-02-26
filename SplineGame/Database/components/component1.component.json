@@ -1,0 +1,15 @@
+{
+  "id": "62a73fca-36ab-4204-b7e8-c936e2576593",
+  "name": "Test",
+  "typeName": "test",
+  "properties": [
+    {
+      "id": "b4b77995936d4a28bd1b60b4fda609b9",
+      "lockedId": true,
+      "name": "Test",
+      "kind": "Number",
+      "typeId": "core.number",
+      "defaultValue": "1"
+    }
+  ]
+}

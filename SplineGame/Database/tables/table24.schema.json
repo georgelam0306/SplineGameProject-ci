@@ -1,0 +1,43 @@
+{
+  "id": "6d46c2e8-010f-4b94-9b57-635089f62f13",
+  "name": "Weapons",
+  "columns": [
+    {
+      "id": "id",
+      "name": "Id",
+      "kind": "Id",
+      "typeId": "core.id",
+      "width": 180
+    },
+    {
+      "id": "name",
+      "name": "Name",
+      "kind": "Text",
+      "typeId": "core.text",
+      "width": 220
+    },
+    {
+      "id": "fire_rate",
+      "name": "FireRate",
+      "kind": "Number",
+      "typeId": "core.number",
+      "width": 110,
+      "exportType": "int"
+    },
+    {
+      "id": "projectile",
+      "name": "Projectile",
+      "kind": "Relation",
+      "typeId": "core.relation",
+      "width": 220,
+      "relationTableId": "f5d8b8b6-9a64-4f1e-94fa-2fd2f4f1f184",
+      "relationDisplayColumnId": "name"
+    }
+  ],
+  "export": {
+    "enabled": true
+  },
+  "keys": {
+    "primaryKeyColumnId": "id"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "857e9db6-1b02-4cd7-83db-2ab6e56a52c3",
+  "name": "Prefab 2",
+  "components": [
+    {
+      "componentSchemaId": "62a73fca-36ab-4204-b7e8-c936e2576593",
+      "componentName": "Test"
+    },
+    {
+      "componentSchemaId": "c23ef19a-2c22-4699-82a0-b1d4e8fb804f",
+      "componentName": "Comp4"
+    },
+    {
+      "componentSchemaId": "3e81041a-5205-426f-a1d0-f8280979c1ab",
+      "componentName": "Component 5"
+    },
+    {
+      "componentSchemaId": "d972d80b-24cd-4da1-a29b-f99990dc68ea",
+      "componentName": "Component 6"
+    }
+  ]
+}

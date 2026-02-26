@@ -1,0 +1,31 @@
+{
+  "id": "fa2c45b0-09af-47f9-bf2e-5030d29c35bc",
+  "name": "SplineEnemyMove",
+  "typeName": "SplineEnemyMove",
+  "properties": [
+    {
+      "id": "c0a3c81df7c94d73b6c9b32e595edc5e",
+      "lockedId": true,
+      "name": "Speed",
+      "kind": "Number",
+      "typeId": "core.number",
+      "defaultValue": "0"
+    },
+    {
+      "id": "e2f8f4498a3747ce86c42f6c4a0f845b",
+      "lockedId": true,
+      "name": "FireRateFrames",
+      "kind": "Number",
+      "typeId": "core.number",
+      "defaultValue": "60"
+    },
+    {
+      "id": "2d7a8e2cf3fb4909a91dd4b964f2ec8e",
+      "lockedId": true,
+      "name": "FireCooldownFramesRemaining",
+      "kind": "Number",
+      "typeId": "core.number",
+      "defaultValue": "0"
+    }
+  ]
+}

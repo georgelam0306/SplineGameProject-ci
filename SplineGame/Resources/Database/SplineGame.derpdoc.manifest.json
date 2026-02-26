@@ -1,0 +1,163 @@
+{
+  "Namespace": "DerpDocDatabase",
+  "BinaryPath": "/Users/georgelam/wkspaces/DerpTech2026/Games/SplineGame/Resources/Database/SplineGame.derpdoc",
+  "Tables": [
+    {
+      "Name": "Textures",
+      "RowCount": 0,
+      "RecordSize": 38,
+      "Variants": [
+        {
+          "Id": 0,
+          "VariantName": "Base",
+          "TableName": "Textures",
+          "RowCount": 0
+        }
+      ]
+    },
+    {
+      "Name": "Models",
+      "RowCount": 0,
+      "RecordSize": 62,
+      "Variants": [
+        {
+          "Id": 0,
+          "VariantName": "Base",
+          "TableName": "Models",
+          "RowCount": 0
+        }
+      ]
+    },
+    {
+      "Name": "Audio",
+      "RowCount": 0,
+      "RecordSize": 38,
+      "Variants": [
+        {
+          "Id": 0,
+          "VariantName": "Base",
+          "TableName": "Audio",
+          "RowCount": 0
+        }
+      ]
+    },
+    {
+      "Name": "Materials",
+      "RowCount": 0,
+      "RecordSize": 34,
+      "Variants": [
+        {
+          "Id": 0,
+          "VariantName": "Base",
+          "TableName": "Materials",
+          "RowCount": 0
+        }
+      ]
+    },
+    {
+      "Name": "Player",
+      "RowCount": 2,
+      "RecordSize": 28,
+      "Variants": [
+        {
+          "Id": 0,
+          "VariantName": "Base",
+          "TableName": "Player",
+          "RowCount": 2
+        }
+      ]
+    },
+    {
+      "Name": "Ui",
+      "RowCount": 2,
+      "RecordSize": 38,
+      "Variants": [
+        {
+          "Id": 0,
+          "VariantName": "Base",
+          "TableName": "Ui",
+          "RowCount": 2
+        }
+      ]
+    },
+    {
+      "Name": "Enemies",
+      "RowCount": 3,
+      "RecordSize": 20,
+      "Variants": [
+        {
+          "Id": 0,
+          "VariantName": "Base",
+          "TableName": "Enemies",
+          "RowCount": 3
+        }
+      ]
+    },
+    {
+      "Name": "GameLevelsSplineGameLevel",
+      "RowCount": 2,
+      "RecordSize": 12,
+      "Variants": [
+        {
+          "Id": 0,
+          "VariantName": "Base",
+          "TableName": "GameLevelsSplineGameLevel",
+          "RowCount": 2
+        }
+      ]
+    },
+    {
+      "Name": "GameLevels",
+      "RowCount": 2,
+      "RecordSize": 8,
+      "Variants": [
+        {
+          "Id": 0,
+          "VariantName": "Base",
+          "TableName": "GameLevels",
+          "RowCount": 2
+        }
+      ]
+    },
+    {
+      "Name": "GameLevelsSplineGameLevelPoints",
+      "RowCount": 14,
+      "RecordSize": 60,
+      "Variants": [
+        {
+          "Id": 0,
+          "VariantName": "Base",
+          "TableName": "GameLevelsSplineGameLevelPoints",
+          "RowCount": 14
+        }
+      ]
+    },
+    {
+      "Name": "GameLevelsSplineGameLevelEntities",
+      "RowCount": 19,
+      "RecordSize": 48,
+      "Variants": [
+        {
+          "Id": 0,
+          "VariantName": "Base",
+          "TableName": "GameLevelsSplineGameLevelEntities",
+          "RowCount": 19
+        }
+      ]
+    },
+    {
+      "Name": "Triggers",
+      "RowCount": 1,
+      "RecordSize": 20,
+      "Variants": [
+        {
+          "Id": 0,
+          "VariantName": "Base",
+          "TableName": "Triggers",
+          "RowCount": 1
+        }
+      ]
+    }
+  ],
+  "ColumnTypeIds": []
+}

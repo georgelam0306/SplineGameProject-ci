@@ -1,0 +1,14 @@
+{
+  "id": "12aa29d6-83a0-4c72-b1c3-a51b66e30fd4",
+  "name": "Component 3",
+  "typeName": "component_3",
+  "properties": [
+    {
+      "id": "2954007de41d49ca8343417baacff00b",
+      "lockedId": true,
+      "name": "Value",
+      "kind": "UiAsset",
+      "typeId": "core.ui_asset"
+    }
+  ]
+}

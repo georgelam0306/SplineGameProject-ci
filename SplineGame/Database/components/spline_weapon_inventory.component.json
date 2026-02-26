@@ -1,0 +1,31 @@
+{
+  "id": "be990440-a965-4af0-a2a0-512f8bcae2a8",
+  "name": "SplineWeaponInventory",
+  "typeName": "SplineWeaponInventory",
+  "properties": [
+    {
+      "id": "0af8e4da191d4f34a469d8aa8fe2b7c6",
+      "lockedId": true,
+      "name": "WeaponIds",
+      "kind": "Text",
+      "typeId": "splinegame.list.int",
+      "defaultValue": "[]"
+    },
+    {
+      "id": "e838f847d1674da2a0b96e16593d7b0f",
+      "lockedId": true,
+      "name": "ActiveSlot",
+      "kind": "Number",
+      "typeId": "core.number",
+      "defaultValue": "0"
+    },
+    {
+      "id": "7f1b4738fd5942c9af1d0d6f9a75600d",
+      "lockedId": true,
+      "name": "CooldownFramesRemaining",
+      "kind": "Number",
+      "typeId": "core.number",
+      "defaultValue": "0"
+    }
+  ]
+}
