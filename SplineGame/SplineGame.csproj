@@ -17,6 +17,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="DerpTech.Engine" Version="$(DerpTechPackageVersion)" />
     <PackageReference Include="Derp.UI" Version="$(DerpTechPackageVersion)" />
     <PackageReference Include="DerpDoc.Runtime" Version="$(DerpTechPackageVersion)" />
     <PackageReference Include="DerpTech.FixedMath" Version="$(DerpTechPackageVersion)" />
